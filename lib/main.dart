@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Getx"),),
+      appBar: AppBar(title: const Text("Ahmed"),),
       body: Column(children: [
         MaterialButton(onPressed: (){Get.off(Stop());},
         color: Colors.red,child: Text("Stop"),),
